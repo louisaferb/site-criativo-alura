@@ -5,11 +5,11 @@
 
 .cabecalho {
     background-color: black;
-    color: white; 
+    color: rgb(255, 255, 255); 
     display: flex;  
     justify-content: space-around; 
     align-items: center;
-    padding: 24px 0;
+    padding: 50px 0;
 }
 .cabecalho-imagem {
     width: 10%;
@@ -28,7 +28,7 @@
 
 .Booksworld{
     background-image: linear-gradient(black, white);
-    color: white;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
 }
@@ -43,7 +43,7 @@
 }
 
 .genero-ficcaoimagem{
-    width: 120px;
+    width: 130px;
 }
 
 .genero-icone{
@@ -53,3 +53,59 @@
 .genero-div{
     text-align: center;
 }
+
+.genero-titulo{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.genero-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%
+}
+.autor-titulo{
+    text-align: center;
+    padding: 50px 0;
+    color: rgb(0, 0, 0);
+}
+
+.autor-imagem{
+    width: 130px;
+}
+
+.autor-icone{
+    width: 24px;
+}
+
+.autor-div{
+    text-align: center;
+}
+
+.autor-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%
+}
+
+.Generos{
+    background-image: linear-gradient white;
+}
+
+.autores{
+    background-image: linear-gradient(white,black);
+    color: rgb(255, 255, 255);
+    padding: 50px 0;
+}
+
+.rodape{
+    width: 130px;
+    padding: 1px 0; 
+    background-color: rgb(255, 255, 255);
+}
+
+footer{
+    text-align: center;
+}
+
+
+
+
